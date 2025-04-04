@@ -22,6 +22,7 @@ bool isPowerOfTwoWithoutLoops(int number){
 
 // Test function to check the correctness of the power-of-two functions
 void test(int number) {
+    // bool variables take in true or false based on the output from the two loop methods
     bool expectedOutput = isPowerOfTwoWithoutLoops(number);
     bool actualOutput = isPowerOfTwoWithLoops(number);
 
